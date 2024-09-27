@@ -17,6 +17,7 @@ body {
     align-items: center;
     height: 100vh;
     color: var(--white);
+    cursor: pointer;
 }
 
 .container-org {
@@ -37,6 +38,8 @@ body {
     display: flex;
     text-align: center;
     margin-bottom: -145px;
+    font-size: 20pt;
+    font-weight: 600;
 }
 
 .buttons-operadores {
@@ -55,6 +58,9 @@ body {
     text-align: center;
     justify-content: center;
     padding-top: 150px;
+    font-size: 20pt;
+    font-weight: 600;
+    
 }
 
 .buttons-number {
@@ -64,6 +70,17 @@ body {
     background-color: var(--body-button-cinza);
     margin: 8px;
     padding: 15px;
+}
+
+.buttons-number:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+#grand{
+    color: white;
+    font-weight: 800;
 }
 
 #grande {
