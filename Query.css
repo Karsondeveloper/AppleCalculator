@@ -1,0 +1,7 @@
+@media (min-width: 300px) and (max-width: 780px) {
+    .buttons-number:hover {
+        cursor: none;
+        transform: none;
+        transition: none;
+    }
+}
